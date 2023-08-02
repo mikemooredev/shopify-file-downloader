@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DIRECTORY=/Users/username/BAO/Code/lights4fun
+DIRECTORY=/Users/username/BAO/Code/projectname
 IMAGE_CDN_URL=https://store-name.myshopify.com/cdn/shop/files/
 #VIDEO_CDN_URL=https://cdn.shopify.com/videos/c/vp/
 
