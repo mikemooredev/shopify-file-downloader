@@ -37,6 +37,8 @@ do
   done
 done
 
+mkdir -p ./downloads
+
 for URL in ${URLS[@]}
 do
   wget -P "./downloads" "$URL"
