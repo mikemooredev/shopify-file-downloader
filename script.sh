@@ -13,10 +13,10 @@ declare -a URLS
 # Loop through the found files
 for FILE in $FILES
 do
-  # Store the lines of the files in an array
+  # Store the lines of the file in an array
   LINES=`cat $FILE`
 
-  # Loop through the lines of the files
+  # Loop through the lines of the file
   for LINE in $LINES
   do
 
@@ -47,7 +47,7 @@ done
 # Make a downloads directory if one doesn't already exist
 mkdir -p ./downloads
 
-# Loop through the URLS array and downloas each image using wget
+# Loop through the URLS array and download each image using wget
 for URL in ${URLS[@]}
 do
   wget -P "./downloads" "$URL"
